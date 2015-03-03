@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D77514371AA25EC0009EF03A /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D77514361AA25EC0009EF03A /* StarView.m */; };
+		D775143E1AA27964009EF03A /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = D775143D1AA27963009EF03A /* star.png */; };
+		D77514411AA27D8A009EF03A /* terrestial_planet.png in Resources */ = {isa = PBXBuildFile; fileRef = D775143F1AA27D8A009EF03A /* terrestial_planet.png */; };
+		D77514421AA27D8A009EF03A /* giant_planet.png in Resources */ = {isa = PBXBuildFile; fileRef = D77514401AA27D8A009EF03A /* giant_planet.png */; };
+		D77514451AA2ED7C009EF03A /* GCSGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = D77514441AA2ED7C009EF03A /* GCSGlobal.m */; };
+		D7A92E591A8FFECA0050E641 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A92E581A8FFECA0050E641 /* AppDelegate.m */; };
+		D7A92E5B1A8FFECA0050E641 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A92E5A1A8FFECA0050E641 /* main.m */; };
+		D7A92E5D1A8FFECA0050E641 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A92E5C1A8FFECA0050E641 /* Images.xcassets */; };
+		D7A92E601A8FFECA0050E641 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A92E5E1A8FFECA0050E641 /* MainMenu.xib */; };
+		D7A92E6C1A8FFECA0050E641 /* gcsimpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A92E6B1A8FFECA0050E641 /* gcsimpleTests.m */; };
+		D7A92E771A9019520050E641 /* Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A92E761A9019510050E641 /* Seed.m */; };
+		D7A92E7A1A902DF40050E641 /* Simulator.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A92E791A902DF40050E641 /* Simulator.m */; };
+		D7A92E7D1A902F4F0050E641 /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A92E7C1A902F4F0050E641 /* Planet.m */; };
+		D7A92E801A902F660050E641 /* Projectile.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A92E7F1A902F660050E641 /* Projectile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7A92E661A8FFECA0050E641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7A92E4A1A8FFEC90050E641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7A92E511A8FFECA0050E641;
+			remoteInfo = gcsimple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D77514351AA25EC0009EF03A /* StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StarView.h; path = ../StarView.h; sourceTree = "<group>"; };
+		D77514361AA25EC0009EF03A /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StarView.m; path = ../StarView.m; sourceTree = "<group>"; };
+		D775143D1AA27963009EF03A /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		D775143F1AA27D8A009EF03A /* terrestial_planet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terrestial_planet.png; sourceTree = "<group>"; };
+		D77514401AA27D8A009EF03A /* giant_planet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giant_planet.png; sourceTree = "<group>"; };
+		D77514431AA2ED7B009EF03A /* GCSGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCSGlobal.h; sourceTree = "<group>"; };
+		D77514441AA2ED7C009EF03A /* GCSGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCSGlobal.m; sourceTree = "<group>"; };
+		D7A92E521A8FFECA0050E641 /* gcsimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gcsimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A92E561A8FFECA0050E641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A92E571A8FFECA0050E641 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7A92E581A8FFECA0050E641 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7A92E5A1A8FFECA0050E641 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7A92E5C1A8FFECA0050E641 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D7A92E5F1A8FFECA0050E641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D7A92E651A8FFECA0050E641 /* gcsimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gcsimpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A92E6A1A8FFECA0050E641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A92E6B1A8FFECA0050E641 /* gcsimpleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gcsimpleTests.m; sourceTree = "<group>"; };
+		D7A92E751A9019500050E641 /* Seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seed.h; sourceTree = "<group>"; };
+		D7A92E761A9019510050E641 /* Seed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seed.m; sourceTree = "<group>"; };
+		D7A92E781A902DF40050E641 /* Simulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simulator.h; sourceTree = "<group>"; };
+		D7A92E791A902DF40050E641 /* Simulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Simulator.m; sourceTree = "<group>"; };
+		D7A92E7B1A902F4F0050E641 /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planet.h; sourceTree = "<group>"; };
+		D7A92E7C1A902F4F0050E641 /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planet.m; sourceTree = "<group>"; };
+		D7A92E7E1A902F660050E641 /* Projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projectile.h; sourceTree = "<group>"; };
+		D7A92E7F1A902F660050E641 /* Projectile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Projectile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7A92E4F1A8FFECA0050E641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A92E621A8FFECA0050E641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7A92E491A8FFEC90050E641 = {
+			isa = PBXGroup;
+			children = (
+				D7A92E541A8FFECA0050E641 /* gcsimple */,
+				D7A92E681A8FFECA0050E641 /* gcsimpleTests */,
+				D7A92E531A8FFECA0050E641 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7A92E531A8FFECA0050E641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7A92E521A8FFECA0050E641 /* gcsimple.app */,
+				D7A92E651A8FFECA0050E641 /* gcsimpleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7A92E541A8FFECA0050E641 /* gcsimple */ = {
+			isa = PBXGroup;
+			children = (
+				D775143F1AA27D8A009EF03A /* terrestial_planet.png */,
+				D77514401AA27D8A009EF03A /* giant_planet.png */,
+				D775143D1AA27963009EF03A /* star.png */,
+				D7A92E571A8FFECA0050E641 /* AppDelegate.h */,
+				D7A92E581A8FFECA0050E641 /* AppDelegate.m */,
+				D77514431AA2ED7B009EF03A /* GCSGlobal.h */,
+				D77514441AA2ED7C009EF03A /* GCSGlobal.m */,
+				D7A92E751A9019500050E641 /* Seed.h */,
+				D7A92E761A9019510050E641 /* Seed.m */,
+				D7A92E7B1A902F4F0050E641 /* Planet.h */,
+				D7A92E7C1A902F4F0050E641 /* Planet.m */,
+				D7A92E7E1A902F660050E641 /* Projectile.h */,
+				D7A92E7F1A902F660050E641 /* Projectile.m */,
+				D7A92E781A902DF40050E641 /* Simulator.h */,
+				D7A92E791A902DF40050E641 /* Simulator.m */,
+				D77514351AA25EC0009EF03A /* StarView.h */,
+				D77514361AA25EC0009EF03A /* StarView.m */,
+				D7A92E5C1A8FFECA0050E641 /* Images.xcassets */,
+				D7A92E5E1A8FFECA0050E641 /* MainMenu.xib */,
+				D7A92E551A8FFECA0050E641 /* Supporting Files */,
+			);
+			path = gcsimple;
+			sourceTree = "<group>";
+		};
+		D7A92E551A8FFECA0050E641 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7A92E561A8FFECA0050E641 /* Info.plist */,
+				D7A92E5A1A8FFECA0050E641 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7A92E681A8FFECA0050E641 /* gcsimpleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7A92E6B1A8FFECA0050E641 /* gcsimpleTests.m */,
+				D7A92E691A8FFECA0050E641 /* Supporting Files */,
+			);
+			path = gcsimpleTests;
+			sourceTree = "<group>";
+		};
+		D7A92E691A8FFECA0050E641 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7A92E6A1A8FFECA0050E641 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7A92E511A8FFECA0050E641 /* gcsimple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A92E6F1A8FFECA0050E641 /* Build configuration list for PBXNativeTarget "gcsimple" */;
+			buildPhases = (
+				D7A92E4E1A8FFECA0050E641 /* Sources */,
+				D7A92E4F1A8FFECA0050E641 /* Frameworks */,
+				D7A92E501A8FFECA0050E641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gcsimple;
+			productName = gcsimple;
+			productReference = D7A92E521A8FFECA0050E641 /* gcsimple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7A92E641A8FFECA0050E641 /* gcsimpleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A92E721A8FFECA0050E641 /* Build configuration list for PBXNativeTarget "gcsimpleTests" */;
+			buildPhases = (
+				D7A92E611A8FFECA0050E641 /* Sources */,
+				D7A92E621A8FFECA0050E641 /* Frameworks */,
+				D7A92E631A8FFECA0050E641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A92E671A8FFECA0050E641 /* PBXTargetDependency */,
+			);
+			name = gcsimpleTests;
+			productName = gcsimpleTests;
+			productReference = D7A92E651A8FFECA0050E641 /* gcsimpleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7A92E4A1A8FFEC90050E641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Martin Dunsmuir";
+				TargetAttributes = {
+					D7A92E511A8FFECA0050E641 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D7A92E641A8FFECA0050E641 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D7A92E511A8FFECA0050E641;
+					};
+				};
+			};
+			buildConfigurationList = D7A92E4D1A8FFEC90050E641 /* Build configuration list for PBXProject "gcsimple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7A92E491A8FFEC90050E641;
+			productRefGroup = D7A92E531A8FFECA0050E641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7A92E511A8FFECA0050E641 /* gcsimple */,
+				D7A92E641A8FFECA0050E641 /* gcsimpleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7A92E501A8FFECA0050E641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A92E5D1A8FFECA0050E641 /* Images.xcassets in Resources */,
+				D7A92E601A8FFECA0050E641 /* MainMenu.xib in Resources */,
+				D77514411AA27D8A009EF03A /* terrestial_planet.png in Resources */,
+				D775143E1AA27964009EF03A /* star.png in Resources */,
+				D77514421AA27D8A009EF03A /* giant_planet.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A92E631A8FFECA0050E641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7A92E4E1A8FFECA0050E641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77514371AA25EC0009EF03A /* StarView.m in Sources */,
+				D7A92E7D1A902F4F0050E641 /* Planet.m in Sources */,
+				D7A92E5B1A8FFECA0050E641 /* main.m in Sources */,
+				D7A92E771A9019520050E641 /* Seed.m in Sources */,
+				D77514451AA2ED7C009EF03A /* GCSGlobal.m in Sources */,
+				D7A92E801A902F660050E641 /* Projectile.m in Sources */,
+				D7A92E7A1A902DF40050E641 /* Simulator.m in Sources */,
+				D7A92E591A8FFECA0050E641 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A92E611A8FFECA0050E641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A92E6C1A8FFECA0050E641 /* gcsimpleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7A92E671A8FFECA0050E641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7A92E511A8FFECA0050E641 /* gcsimple */;
+			targetProxy = D7A92E661A8FFECA0050E641 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7A92E5E1A8FFECA0050E641 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A92E5F1A8FFECA0050E641 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7A92E6D1A8FFECA0050E641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D7A92E6E1A8FFECA0050E641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D7A92E701A8FFECA0050E641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gcsimple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7A92E711A8FFECA0050E641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = gcsimple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7A92E731A8FFECA0050E641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gcsimpleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gcsimple.app/Contents/MacOS/gcsimple";
+			};
+			name = Debug;
+		};
+		D7A92E741A8FFECA0050E641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gcsimpleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gcsimple.app/Contents/MacOS/gcsimple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7A92E4D1A8FFEC90050E641 /* Build configuration list for PBXProject "gcsimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A92E6D1A8FFECA0050E641 /* Debug */,
+				D7A92E6E1A8FFECA0050E641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A92E6F1A8FFECA0050E641 /* Build configuration list for PBXNativeTarget "gcsimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A92E701A8FFECA0050E641 /* Debug */,
+				D7A92E711A8FFECA0050E641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A92E721A8FFECA0050E641 /* Build configuration list for PBXNativeTarget "gcsimpleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A92E731A8FFECA0050E641 /* Debug */,
+				D7A92E741A8FFECA0050E641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7A92E4A1A8FFEC90050E641 /* Project object */;
+}
